@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="uz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./stely.css">
+    <title>Kim birinchi borishga!</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kim birinchi bo-rish-ga!</h1>
+
+      <div class="input-section">
+        <label>Masofa</label>
+        <input
+          type="number"
+          id="distance"
+          placeholder="Masofani kiriting (km)"
+        />
+        <button onclick="calculate()">Hisobla</button>
+      </div>
+
+      <div class="cards-container">
+       
+        <div class="card">
+          <div class="icon">🚶</div>
+          <div class="name">Piyoda</div>
+          <div class="result" id="res-piyoda">N soat</div>
+        </div>
+      
+        <div class="card">
+          <div class="icon">🚲</div>
+          <div class="name">Velosiped</div>
+          <div class="result" id="res-velo">N soat</div>
+        </div>
+        
+        <div class="card">
+          <div class="icon">🚗</div>
+          <div class="name">Mashina</div>
+          <div class="result" id="res-mashina">N soat</div>
+        </div>
+
+        <div class="card">
+          <div class="icon">✈️</div>
+          <div class="name">Samolyot</div>
+          <div class="result" id="res-samolyot">N soat</div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./bit.js"></script>
+  </body>
+</html>
